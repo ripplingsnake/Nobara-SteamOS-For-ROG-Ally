@@ -13,20 +13,20 @@ You can chose to dual boot during the install. If given the option choose the no
 
 
 
-After installed do any updates it has requested, There is and update option in applications that will update the whole system.
+After installed do any updates it has requested, There is a update option in applications that will update the whole system.
 
 ###############################################################
 
 
 
 
-To get your controller working Open Nobara package manager (Bottom left gold icon) and search for HnadyGCCS select it and apply. If you dont find it there open Konsole and Type or copy and paste the following- 
+To get your controller working Open Nobara package manager (Bottom left gold icon) and search for HandyGCCS select it and apply. If you dont find it there, open Konsole and Type or copy and paste the following- 
 
 
 sudo dnf install HandyGCCS
 
 
-it will ask you if you want to install clcik yes. Now your controls are working. After a reboot
+It will ask you if you want to install click yes. Now your controls are working, after a reboot
 
 #################################################################
 
@@ -34,7 +34,13 @@ it will ask you if you want to install clcik yes. Now your controls are working.
 
 
 Fan controls-
-Again open Nobara Package Manager search for asusctl, there will be two options- Ausctl and rog gui, select both and install. ROG will now be availible in your applications.
+Again open Nobara Package Manager search for asusctl, there will be two options-
+
+Asusctl 
+
+rog gui,
+
+select both and install. ROG will now be availible in your applications.
 Now reboot the Ally to allow the changes to be made.
 
 
