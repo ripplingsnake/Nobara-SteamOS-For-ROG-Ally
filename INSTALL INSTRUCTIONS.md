@@ -28,7 +28,7 @@ Sudo dnf install handygccs it will ask you if you want to install clcik yes. Now
 Fan controls-
 Again open Nobara Package Manager search for asusctl, there will be two options- Ausctl and rog gui, select both and install. ROG will now be availible in your applications.
 Now reboot the Ally to allow the changes to be made.
-Your fans can be Adjusted please use comman sence when setting the fans. your going to have noise if you want to set a high TDP!
+This automatically changes your max tdp based on if your plugged in to power or not
 #######################################################################
 
 
