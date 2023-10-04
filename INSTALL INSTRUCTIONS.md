@@ -36,10 +36,11 @@ Your fans can be Adjusted please use comman sence when setting the fans. your go
 
 Next we will control TDP-
 Downlaod the file located here   https://1drv.ms/u/s!AryeQSxPChg1itJ5r-t3cv3tGZTzYA?e=q6a0CH       then use the following command-
+
+
+
+
 ###############################################
-
-
-
 
 sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
 ##################################################
