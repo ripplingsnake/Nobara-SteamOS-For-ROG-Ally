@@ -36,9 +36,7 @@ it will ask you if you want to install clcik yes. Now your controls are working.
 Fan controls-
 Again open Nobara Package Manager search for asusctl, there will be two options- Ausctl and rog gui, select both and install. ROG will now be availible in your applications.
 Now reboot the Ally to allow the changes to be made.
-DO NOT use max tdp watts when unplugged as you will get major stutters as the battrey wont keep up with power demand!
 
-  SET YOUR FAN CURVES TO COOL YOUR SYSTEM IF YOU PLAN ON USING MAX TDP
 
 #######################################################################
 
@@ -46,12 +44,11 @@ DO NOT use max tdp watts when unplugged as you will get major stutters as the ba
 
 
 Next we will control TDP-
+
+
 Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ6EhuvGMrpPc7Gsw?e=iD6hT9    then use the following command-
 
 
-
-
-###############################################
 
 sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
 
@@ -66,6 +63,11 @@ your root folde, at the bottom of the window left hand side then click the 3 lin
   STEAMOS-POLKIT-HELPERS 
 
   right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.
+
+  
+  DO NOT use max tdp watts when unplugged as you will get major stutters as the battrey wont keep up with power demand!
+
+  SET YOUR FAN CURVES TO COOL YOUR SYSTEM IF YOU PLAN ON USING MAX TDP
   
   
 ##################################################
