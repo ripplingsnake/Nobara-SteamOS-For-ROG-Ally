@@ -7,12 +7,14 @@ Download https://www.balena.io/etcher/ to burn the Nobara image to USB.
 https://nobaraproject.org/download-nobara/# down load Nobara for steam deck
 
 You can chose to dual boot during the install. If given the option choose the no swap file option.
+
 ###################################################################################################
 
 
 
 
 After installed do any updates it has requested, There is and update option in applications that will update the whole system.
+
 ###############################################################
 
 
@@ -24,7 +26,8 @@ To get your controller working Open Nobara package manager (Bottom left gold ico
 Sudo dnf install handygccs 
 
 
-it will ask you if you want to install clcik yes. Now your controls are working.
+it will ask you if you want to install clcik yes. Now your controls are working. After a reboot
+
 #################################################################
 
 
@@ -33,7 +36,10 @@ it will ask you if you want to install clcik yes. Now your controls are working.
 Fan controls-
 Again open Nobara Package Manager search for asusctl, there will be two options- Ausctl and rog gui, select both and install. ROG will now be availible in your applications.
 Now reboot the Ally to allow the changes to be made.
-This automatically changes your max tdp based on if your plugged in to power or not
+DO NOT use max tdp watts when unplugged as you will get major stutters as the battrey wont keep up with power demand!
+
+  SET YOUR FAN CURVES TO COOL YOUR SYSTEM IF YOU PLAN ON USING MAX TDP
+
 #######################################################################
 
 
