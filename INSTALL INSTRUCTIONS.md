@@ -1,6 +1,6 @@
 Please follow to get the best steam experiance on your Ally, this includes TDP control, Fan control. LEDS are not controlled yet but is being worked on 
 
-There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame.
+There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame. Alot of other people have contributed and we owe them a beer!
 
 Download https://www.balena.io/etcher/ to burn the Nobara image to USB.
 
