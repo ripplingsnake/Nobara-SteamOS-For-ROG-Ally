@@ -128,6 +128,8 @@ Now open cyroutils thats on your desktop enter your password and click apply rec
 
 CONGRATULATIONS NOW ENJOY YOUR STEAMALLY!
 
+Recommend display scaling set to 125 percent
+
 Recommended APPS-
 
 XCG for xbox gamepass full screen game streaming
