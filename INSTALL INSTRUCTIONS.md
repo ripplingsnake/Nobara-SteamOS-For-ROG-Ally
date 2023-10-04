@@ -19,7 +19,12 @@ After installed do any updates it has requested, There is and update option in a
 
 
 To get your controller working Open Nobara package manager (Bottom left gold icon) and search for HnadyGCCS select it and apply. If you dont find it there open Konsole and Type or copy and paste the following- 
-Sudo dnf install handygccs it will ask you if you want to install clcik yes. Now your controls are working.
+
+
+Sudo dnf install handygccs 
+
+
+it will ask you if you want to install clcik yes. Now your controls are working.
 #################################################################
 
 
