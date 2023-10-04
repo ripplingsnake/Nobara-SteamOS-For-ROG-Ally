@@ -128,6 +128,13 @@ Now open cyroutils thats on your desktop enter your password and click apply rec
 
 CONGRATULATIONS NOW ENJOY YOUR STEAMALLY!
 
+Recommended APPS-
+
+XCG for xbox gamepass full screen game streaming
+
+Geforce now electron  for nvidia streaming
+
+
 
 
 
