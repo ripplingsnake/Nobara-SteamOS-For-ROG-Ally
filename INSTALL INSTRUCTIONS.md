@@ -60,7 +60,7 @@ sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpe
 
 If this command fails then do this open your download folder to where the file is then open another window in Dolphin and click on
 
-your root folde, at the bottom of the window left hand side then click the 3 lines(hamburger menu) navigate to-
+your root folder and navigate as below, 
 
   USR
   
