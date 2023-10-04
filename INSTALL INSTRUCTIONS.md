@@ -35,7 +35,7 @@ This automatically changes your max tdp based on if your plugged in to power or 
 
 
 Next we will control TDP-
-Downlaod the file located here     https://1drv.ms/u/s!AryeQSxPChg1itJ6EhuvGMrpPc7Gsw?e=FJ4hcp     then use the following command-
+Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ6EhuvGMrpPc7Gsw?e=iD6hT9    then use the following command-
 
 
 
