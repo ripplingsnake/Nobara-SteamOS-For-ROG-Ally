@@ -3,9 +3,9 @@ Please follow to get the best steam experiance on your Ally, this includes TDP c
 There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame. Alot of other people have contributed and we owe them a beer!
 
 
-'''  Download https://www.balena.io/etcher/ to burn the Nobara image to USB.
+'''       Download https://www.balena.io/etcher/ to burn the Nobara image to USB.
 
-'''  https://nobaraproject.org/download-nobara/# down load Nobara for steam deck
+'''       https://nobaraproject.org/download-nobara/# down load Nobara for steam deck
 
 You can chose to dual boot during the install. If given the option choose the no swap file option.
 
@@ -30,9 +30,9 @@ It will ask you if you want to install click yes. Now your controls are working,
 Fan controls-
 Again open Nobara Package Manager search for asusctl, there will be two options-
 
-'''   Asusctl 
+'''      Asusctl 
 
-'''    rog-gui
+'''      rog-gui
 
 Select both and install. ROG will now be availible in your applications.
 Now reboot the Ally to allow the changes to be made.
@@ -44,11 +44,11 @@ Now reboot the Ally to allow the changes to be made.
 Next we will control TDP-
 
 
-'''     Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=8DtSbe    then use the following command-
+'''         Downlaod the file located here      https://1drv.ms/u/s!AryeQSxPChg1itJ89P7hqN0JfRJg-w?e=ktiNab   then use the following command-
 
 
 
-'''   sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
+'''        sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
 
 
 
@@ -56,11 +56,11 @@ If this command fails then do this open your download folder to where the file i
 
 your root folder and navigate as below, 
 
-'''  USR
+'''       USR
   
-'''  BIN
+'''       BIN
   
-'''  STEAMOS-POLKIT-HELPERS 
+'''       STEAMOS-POLKIT-HELPERS 
 
   Right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.
 
@@ -93,11 +93,11 @@ Copy the following command to downlaod Deckyloader and cryoutilities
 
 DeckyLoader-
 
-'''    curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_release.sh | sh
+'''         curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_release.sh | sh
 
 Cryoutilites
 
-'''    curl https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/install.sh | bash -s --
+'''         curl https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/install.sh | bash -s --
 
 
 
@@ -106,42 +106,42 @@ Now we will disable zram and set a 16GB swap file copy and paste these commands 
 
 
 
-'''   sudo touch /etc/systemd/zram-generator.conf
+'''        sudo touch /etc/systemd/zram-generator.conf
 
-'''   sudo dnf remove zram-generator-defaults
+'''        sudo dnf remove zram-generator-defaults
 
-'''   reboot
+'''        reboot
 
-'''   sudo dd if=/dev/zero of=/swapfile bs=1G count=16
+'''        sudo dd if=/dev/zero of=/swapfile bs=1G count=16
+  
+'''        sudo truncate -s 0 /swapfile
 
-'''   sudo truncate -s 0 /swapfile
+'''        sudo chattr +C /swapfile
 
-'''   sudo chattr +C /swapfile
+'''        sudo dd if=/dev/zero of=/swapfile bs=1G count=16
 
-'''   sudo dd if=/dev/zero of=/swapfile bs=1G count=16
+'''        sudo chmod 600 /swapfile
 
-'''   sudo chmod 600 /swapfile
+'''        sudo mkswap /swapfile
 
-'''   sudo mkswap /swapfile
-
-'''   sudo swapon /swapfile
+'''        sudo swapon /swapfile
 
 now enter
 
-'''   sudo nano /etc/fstab
+'''        sudo nano /etc/fstab
 
 If there is a line that contains anything with the word  swap in it, delete the whole line then,
 
 Add this to the end of the lines thats there,
 
 
-'''   /swapfile swap swap defaults 0 0
+'''        /swapfile swap swap defaults 0 0
 
 
-'''   Press cntl + O push enter to write the line in then Cntl + x so save and exit
+'''        Press cntl + O push enter to write the line in then Cntl + x so save and exit
 
 
-'''   Reboot
+'''        Reboot
 
 
 Now open cyroutils thats on your desktop enter your password and click apply recommened settings.
