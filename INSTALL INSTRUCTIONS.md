@@ -44,7 +44,7 @@ Now reboot the Ally to allow the changes to be made.
 Next we will control TDP-
 
 
-'''         Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=j740Hz  then use the following command-
+'''         Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ89P7hqN0JfRJg-w?e=vxNMH2  then use the following command-
 
 
 
