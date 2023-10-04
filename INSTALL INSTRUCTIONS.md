@@ -54,6 +54,20 @@ Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ6EhuvGMr
 ###############################################
 
 sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
+
+If this command fails then do this open your download folder to where the file is then open another window in Dolphin and click on
+
+your root folde, at the bottom of the window left hand side then click the 3 lines(hamburger menu) navigate to-
+
+  USR
+  
+  BIN
+  
+  STEAMOS-POLKIT-HELPERS 
+
+  right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.
+  
+  
 ##################################################
 
 
@@ -61,12 +75,15 @@ sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpe
 
 Notes on TDP Important, the steam UI is controlled by Valve and it will show 1-15watts however this is scaled for the ally from 5-40watts, so be aware of this 15watts is full 40watts of power. 1 is 5watts! DO NOT set to max tdp if your are not plugged in! the Battrey can not handle the power draw and you will get stutters in game! 
 10watts on slider is max reccomend for Battery Play.!
+
+
 ################################################
 
 
 
 
 Copy the following command to downlaod Deckyloader and cryoutilities
+
 
 
 
@@ -115,13 +132,15 @@ sudo nano /etc/fstab
 if there is a line that contains anything with swap in it delete the whole line then,
 
 Add this to the end of the lines thats there,
+
+
 #################################
 
 
 
-
-
 /swapfile swap swap defaults 0 0
+
+
 #################################
 
 
