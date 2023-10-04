@@ -12,7 +12,7 @@ You can chose to dual boot during the install. If given the option choose the no
 
 
 
-After installed do any updates it has requested, There is and update option in applications that will update the whole system. DO NOT use DNF to update files as this will overwrite custom work done to the Kernal.
+After installed do any updates it has requested, There is and update option in applications that will update the whole system.
 ###############################################################
 
 
