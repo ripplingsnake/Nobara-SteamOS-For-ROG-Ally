@@ -44,7 +44,7 @@ Now reboot the Ally to allow the changes to be made.
 Next we will control TDP-
 
 
-'''         Downlaod the file located here      https://1drv.ms/u/s!AryeQSxPChg1itJ89P7hqN0JfRJg-w?e=ktiNab   then use the following command-
+'''         Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=j740Hz  then use the following command-
 
 
 
@@ -62,7 +62,7 @@ your root folder and navigate as below,
   
 '''       STEAMOS-POLKIT-HELPERS 
 
-  Right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.
+  Right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.if it doesnt over write it remove the old folder and keep this one 
 
   
   DO NOT use max tdp watts when unplugged as you will get major stutters as the battrey wont keep up with power demand!
