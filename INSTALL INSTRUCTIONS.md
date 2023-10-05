@@ -78,8 +78,8 @@ your root folder and navigate as below,
 !!!!!!!!!!!!!Notes on TDP Important!!!!!!!!!!!!!!
 
 
-The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 7-44 watts, so be aware of this.
-15 watts is full 44 watts of power. 1 watt is 7watts!
+The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 7-30 watts, so be aware of this.
+15 watts is full 30 watts of power. 1 watt is 7watts!
 
 DO NOT set to max tdp if your are not plugged in! the Battrey VRMs can not handle the power draw and you will get stutters in game! 
 9 watts on slider is max reccomend for Battery Play.!
