@@ -44,7 +44,7 @@ Now reboot the Ally to allow the changes to be made.
 Next we will control TDP- THIS IS ONLY FOR ROG ALLY DO NOT INSTALL ON ANY OTHER DEVICE!
 
 
-'''         Downlaod the file located here       https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=gjBYB5  then use the following command-
+'''         Downlaod the file located here      https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=lh237n   then use the following command-
 
 
 
