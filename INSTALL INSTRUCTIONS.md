@@ -42,15 +42,15 @@ Now reboot the Ally to allow the changes to be made.
 !!!!!!!!!!!!!Notes on TDP Important!!!!!!!!!!!!!!
 
 
-The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 7-30 watts, so be aware of this.
-15 watts is full 30 watts of power. 1 watt is 7watts!
+The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 5-30 watts, so be aware of this.
+15 watts is full 30 watts of power. 1 watt is 5watts!
+
+
+The following is optional but recommended!.
 
 
 
-
-
-
-Copy the following command to downlaod Deckyloader and cryoutilities
+Copy the following command to downlod Deckyloader and cryoutilities
 
 
 
