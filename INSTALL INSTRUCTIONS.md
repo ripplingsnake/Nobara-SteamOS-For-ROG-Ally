@@ -39,50 +39,13 @@ Now reboot the Ally to allow the changes to be made.
 
 
 
-
-
-Next we will control TDP- THIS IS ONLY FOR ROG ALLY DO NOT INSTALL ON ANY OTHER DEVICE!
-
-
-'''         Downlaod the file located here      https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=lh237n   then use the following command-
-
-
-
-'''        sudo cp -f /home/marc/Downloads/steamos-priv-write /usr/bin/steamos-polkit-helpers
-
-
-
-If this command fails then do this open your download folder to where the file is then open another window in Dolphin and click on
-
-your root folder and navigate as below, 
-
-'''       USR
-  
-'''       BIN
-  
-'''       STEAMOS-POLKIT-HELPERS 
-
-  Right click in this folder and open as administrator then drag the downloaded file into the folder and click yes to overwrite.if it doesnt over write it remove the old folder and keep this one 
-
-  
-  DO NOT use max tdp watts when unplugged as you will get major stutters as the battrey wont keep up with power demand!
-
-  SET YOUR FAN CURVES TO COOL YOUR SYSTEM IF YOU PLAN ON USING MAX TDP
-  
-  
-
-
-
-
-
 !!!!!!!!!!!!!Notes on TDP Important!!!!!!!!!!!!!!
 
 
 The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 7-30 watts, so be aware of this.
 15 watts is full 30 watts of power. 1 watt is 7watts!
 
-DO NOT set to max tdp if your are not plugged in! the Battrey VRMs can not handle the power draw and you will get stutters in game! 
-9 watts on slider is max reccomend for Battery Play.!
+
 
 
 
