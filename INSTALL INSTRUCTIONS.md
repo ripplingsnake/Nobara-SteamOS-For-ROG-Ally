@@ -110,6 +110,36 @@ Add this to the end of the lines thats there,
 Now open cyroutils thats on your desktop enter your password and click apply recommened settings.
 
 
+Optional for TDP control in desktop mode 
+
+open konsole and type
+
+
+'''      pip install PyQt5
+
+
+Download these 3 files place the .py and icon file in your Documents folder.
+
+'''    https://1drv.ms/u/s!AryeQSxPChg1itJ_NsUGXB6V6eFRag?e=8ojc7W
+'''    https://1drv.ms/u/s!AryeQSxPChg1itMA0ms6N5fSgNDMqw?e=yIYTil
+'''    https://1drv.ms/i/s!AryeQSxPChg1itMBKBgkPEdJN4O9wg?e=BotPJJ
+
+open a konsole in the documcments directory and type.
+
+
+'''    chmod +x TDP_GUI.py
+
+
+Move the desktop file to your desktop 
+
+Right click it and open with kate
+
+locate the two path files and delete my name and replace it with yours  save and close, reboot and now you can use the 3 preset buttons to set TDP like armoury crate , or use the slider to set custom wattage!
+
+
+
+
+
 
 CONGRATULATIONS NOW ENJOY YOUR STEAMALLY!
 
