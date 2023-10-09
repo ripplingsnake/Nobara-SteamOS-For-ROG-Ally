@@ -1,0 +1,35 @@
+Here we will install smokeless to allow you to set a higher TDP. WARNING no responcability is accepted if you Brick your Ally!
+
+You will need a keybaord attached to your ally through a hub and the usb with the files.
+
+First download and extract the smokeless files to a FAT32 USB drive.
+
+'''      https://github.com/DavidS95/Smokeless_UMAF/blob/main/UniversalAMDFormBrowser.zip
+
+Extract the files to your usb with 7.zip
+
+Boot up your ALLY with pressing volume down button a few times till you boot into BIOS
+
+Press Y go to boot and select your usb drive as first boot device, save and exit, your Ally will now boot into smokeless.
+
+Using your arrow keys select Device Manager press Enter
+
+Go to AMD CBS enter
+
+CPU COMMON OPTIONS
+
+GLOBAL C-STATE CONTROL select disable then press esc.
+
+Scroll down to SMU COMMON OPTIONS enter
+
+System configuration select 54w
+
+SPL CONTROL select manual
+
+SUSTAINED POWER LIMIT enter 54000
+
+PPT CONTROL select manual
+
+Then on next 3 options FAST PPT LIMIT, SLOW PPT LIMIT, SLOW PPT TIME CONSTANT enter 50000 then press esc till it asks you if you want to save configuration press yes then reboot.
+
+You now have unlocked higher performance!!
