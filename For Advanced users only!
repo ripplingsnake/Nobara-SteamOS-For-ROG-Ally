@@ -33,3 +33,13 @@ PPT CONTROL select manual
 Then on next 3 options FAST PPT LIMIT, SLOW PPT LIMIT, SLOW PPT TIME CONSTANT enter 50000 then press esc till it asks you if you want to save configuration press yes then reboot.
 
 You now have unlocked higher performance!!
+
+To use the higher performance download this file here
+
+'''         https://1drv.ms/u/s!AryeQSxPChg1itJ7UKqs53fURteNKQ?e=dnw6vS
+
+Place this file in /usr/bin/steamos-polkit-helpers  over write the file.
+
+Now when you adjust the watt slider in Steam game mode it will show 3 - 15 watts this is ste by steam and cant be changed however the ally power scale is roughly x3 factor so 3 watts means real wattage of about 8 and 15watts will be 44watts with a fast higher boost of 53watts for a short time.
+
+
