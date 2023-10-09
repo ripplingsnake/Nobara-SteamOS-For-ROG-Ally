@@ -22,7 +22,7 @@ class RyzenAdjGUI(QMainWindow):
 
         self.tdp_wattage_slider = QSlider(Qt.Horizontal)
         self.tdp_wattage_slider.setMinimum(5000)  # Minimum wattage in mW (5W)
-        self.tdp_wattage_slider.setMaximum(35000)  # Maximum wattage in mW (35W)
+        self.tdp_wattage_slider.setMaximum(44000)  # Maximum wattage in mW (44W)
         self.tdp_wattage_slider.setTickInterval(5000)  # Tick interval in mW (5W)
         self.tdp_wattage_slider.setTickPosition(QSlider.TicksBelow)
         self.layout.addWidget(self.tdp_wattage_slider)
