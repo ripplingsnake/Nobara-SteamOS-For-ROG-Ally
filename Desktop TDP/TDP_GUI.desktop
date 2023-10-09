@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Name=TDP GUI
+Exec=python3 /home/marc/Documents/TDP_GUI.py
+Icon=/home/marc/Documents/TDP.png
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
