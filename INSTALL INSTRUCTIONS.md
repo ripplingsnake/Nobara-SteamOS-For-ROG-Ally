@@ -1,4 +1,4 @@
-Please follow to get the best steam experiance on your Ally, this includes TDP control, Fan control. LEDS are not controlled yet but is being worked on 
+Please follow to get the best steam experiance on your Ally, this includes TDP control, Fan control. gpu clock control
 
 There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame. Alot of other people have contributed and we owe them a beer! full props to all of them for this amazing work!
 
