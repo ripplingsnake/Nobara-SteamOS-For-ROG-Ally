@@ -1,13 +1,24 @@
 Please follow to get the best steam experiance on your Ally, this includes TDP control, Fan control. LEDS are not controlled yet but is being worked on 
 
-There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame. Alot of other people have contributed and we owe them a beer!
+There has been alot of work done on this by none other than Glorious Eggroll the man of GEProton fame. Alot of other people have contributed and we owe them a beer! full props to all of them for this amazing work!
 
 
-'''       Download https://www.balena.io/etcher/ to burn the Nobara image to USB.
+'''       Download Balena etcher 
+
+           https://www.balena.io/etcher/ to burn the Nobara image to USB.
+
+           or Rufus 
+
+           https://github.com/pbatard/rufus/releases/download/v4.3/rufus-4.3.exe
+
+           Download the Norara steam deck edition here.
+
 
 '''       https://nobaraproject.org/download-nobara/# down load Nobara for steam deck
 
-You can chose to dual boot during the install. If given the option choose the no swap file option.
+You will need a keyboard attached for install stage!
+
+On initial boot the two special asus front keys wont work dont worry they will soon!
 
 
 
@@ -15,20 +26,11 @@ You can chose to dual boot during the install. If given the option choose the no
 After installed do any updates it has requested, There is a update option in applications that will update the whole system.
 
 
-
-
-To get your controller working Open Nobara package manager (Bottom left gold icon) and search for HandyGCCS select it and apply. If you dont find it there, open Konsole and Type or copy and paste the following- 
-
-
-'''   sudo dnf install HandyGCCS
-
-
-It will ask you if you want to install click yes. Now your controls are working, after a reboot
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Fan controls-
-Again open Nobara Package Manager search for asusctl, there will be two options-
+Open Nobara Package Manager  (3rd icon box with star, bottom left) search for asusctl, there will be two options-
 
 '''      Asusctl 
 
@@ -39,18 +41,20 @@ Now reboot the Ally to allow the changes to be made.
 
 
 
-!!!!!!!!!!!!!Notes on TDP Important!!!!!!!!!!!!!!
+Set up Steampatch.
+ This will allow you to use the Ally controller just like steam deck.
+
+Open Konsole and copy and paste the following. NB this wont work on steam beta client yet but it is being worked on and will soon! 
 
 
-The steam UI is controlled by Valve and it will show 1-15 watts however this is scaled for the ally from 5-30 watts, so be aware of this.
-15 watts is full 30 watts of power. 1 watt is 5watts!
+git clone https://github.com/corando98/steam-patch
+cd steam-patch
+chmod +x install.sh
+./install.sh
 
 
-The following is optional but recommended!.
 
-
-
-Copy the following command to downlod Deckyloader and cryoutilities
+Copy the following command to downlod Deckyloader 
 
 
 
@@ -58,22 +62,12 @@ DeckyLoader-
 
 '''         curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_release.sh | sh
 
-Cryoutilites
-
-'''         curl https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/install.sh | bash -s --
 
 
+If you want to set up a 16GB swap file follow the incructions below, highly recommended!
 
+Open Konsole and copy and paste the following one line at a time.
 
-Now we will disable zram and set a 16GB swap file copy and paste these commands one at a time-
-
-
-
-'''        sudo touch /etc/systemd/zram-generator.conf
-
-'''        sudo dnf remove zram-generator-defaults
-
-'''        reboot
 
 '''        sudo dd if=/dev/zero of=/swapfile bs=1G count=16
   
@@ -106,36 +100,25 @@ Add this to the end of the lines thats there,
 
 '''        Reboot
 
+To enable Sleep with the power button
 
-Now open cyroutils thats on your desktop enter your password and click apply recommened settings.
+open Dolphin and navigate here
 
+/etc/systemd/logind.conf.d/00-handheld-power.conf
 
-Optional for TDP control in desktop mode 
-
-open konsole and type
-
-
-'''      pip install PyQt5
+edit the file 
 
 
-Download these 3 files place the .py and icon file in your Documents folder.
+[Login]
+HandlePowerKey=ignore
+HandlePowerKeyLongPress=ignore
 
-'''    https://1drv.ms/u/s!AryeQSxPChg1itJ_NsUGXB6V6eFRag?e=8ojc7W
-'''    https://1drv.ms/u/s!AryeQSxPChg1itMA0ms6N5fSgNDMqw?e=yIYTil
-'''    https://1drv.ms/i/s!AryeQSxPChg1itMBKBgkPEdJN4O9wg?e=BotPJJ
-
-open a konsole in the documcments directory and type.
+and change it to 
 
 
-'''    chmod +x TDP_GUI.py
-
-
-Move the desktop file to your desktop 
-
-Right click it and open with kate
-
-locate the two path files and delete my name and replace it with yours  save and close, reboot and now you can use the 3 preset buttons to set TDP like armoury crate , or use the slider to set custom wattage!
-
+[Login]
+HandlePowerKey=suspend
+HandlePowerKeyLongPress=ignore
 
 
 
