@@ -47,10 +47,7 @@ Set up Steampatch.
 Open Konsole and copy and paste the following. NB this wont work on steam beta client yet but it is being worked on and will soon! 
 
 
-git clone https://github.com/corando98/steam-patch
-cd steam-patch
-chmod +x install.sh
-./install.sh
+curl -L https://github.com/jlobue10/steam-patch/raw/main/install.sh | sh
 
 
 
