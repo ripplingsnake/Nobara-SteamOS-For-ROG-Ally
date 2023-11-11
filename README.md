@@ -1,3 +1,3 @@
 # Nobara-SteamOS-For-ROG-Ally
 
-gyide to get the best experiance on steam on the Ally
+Guide to get the best experiance on steam on the Ally
