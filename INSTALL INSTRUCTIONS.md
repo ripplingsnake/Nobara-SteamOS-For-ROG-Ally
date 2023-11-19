@@ -101,7 +101,7 @@ To enable Sleep with the power button
 
 open Dolphin and navigate here
 
-/etc/systemd/logind.conf.d/00-handheld-power.conf
+sudo nano /etc/systemd/logind.conf.d/00-handheld-power.conf
 
 edit the file 
 
@@ -116,6 +116,10 @@ and change it to
 [Login]
 HandlePowerKey=suspend
 HandlePowerKeyLongPress=ignore
+
+press ctrl o
+Enter to make the changes
+press ctrl x to exit 
 
 
 
