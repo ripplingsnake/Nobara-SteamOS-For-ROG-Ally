@@ -29,97 +29,59 @@ After installed do any updates it has requested, There is a update option in app
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Fan controls-
-Open Nobara Package Manager  (3rd icon box with star, bottom left) search for asusctl, there will be two options-
+Next open Konsole and copy and paste the following
+'''       curl -sSL https: // raw.githubusercontent.com/
+TaitTechMedia /
+nobara_ally_helper/master/ install.sh sh
+This will clone onto a directory and install the following
+latest kernel with latest Ally updates. you can also run this again to get latest updates!
+Rogue-enemy that allows the use of all thw keys and gyro.
+Deckloader for steam os plug ins
+PowerControl to allow TDP adjustment.
+and finally, asusctl for custom fan profiles.
 
-'''      Asusctl 
+Please also do the following and follow the instructions, once its installed open it in your applications and click install Deamon, this will now dynamically adjust cpu performance states and use auto cpu boost when needed.
 
-'''      rog-gui
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
 
-Select both and install. ROG will now be availible in your applications.
-Now reboot the Ally to allow the changes to be made.
+please note none of this is my work and credit should go to the creators for there long hours and headaches.
 
+Optional but worth it!
+linux virtual keyboard are not very good however there is a fix
 
+open doliphin browser, click on top right and then click on show hidden files.
+then go to .config folder
+create a folder and call it
+plasma_mobile-workspace
+open it and create another folder called env, again open that....
 
-Set up Steampatch.
- This will allow you to use the Ally controller just like steam deck.
+now create a new text file and delete the defualt name and use
+immodule_temp_fix.sh
+now open it and type the following
 
-Open Konsole and copy and paste the following. NB this wont work on steam beta client yet but it is being worked on and will soon! 
+#!/bin/bash
+unset GTK_IM_MODULE
+unset QT_IM_MODULE
 
-
-curl -L https://github.com/jlobue10/steam-patch/raw/main/install.sh | sh
-
-
-
-Copy the following command to downlod Deckyloader 
-
-
-
-DeckyLoader-
-
-'''         curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_release.sh | sh
-
-
-
-If you want to set up a 16GB swap file follow the incructions below, highly recommended!
-
-Open Konsole and copy and paste the following one line at a time.
-
-
-'''        sudo dd if=/dev/zero of=/swapfile bs=1G count=16
-  
-'''        sudo truncate -s 0 /swapfile
-
-'''        sudo chattr +C /swapfile
-
-'''        sudo dd if=/dev/zero of=/swapfile bs=1G count=16
-
-'''        sudo chmod 600 /swapfile
-
-'''        sudo mkswap /swapfile
-
-'''        sudo swapon /swapfile
-
-now enter
-
-'''        sudo nano /etc/fstab
-
-If there is a line that contains anything with the word  swap in it, delete the whole line then,
-
-Add this to the end of the lines thats there,
+save it and reboot, on the bottom right there ahould be a small keyboard icon, click it , you only need to do this once.
+now the keyboard will work as good as windows!
 
 
-'''        /swapfile swap swap defaults 0 0
+one last thing again optional, there is an issue of slow power drain while sleeping and this fixes it.
+
+open konsole and type the following
+
+sudo nano /etc/udev/rules.d/50-fingerprint.rules
+
+then in the new window type or copy and paste this
+
+ACTION=="add", SUBSYSTEM=="usb", TEST=="power/control", ATTR{idVendor}=="1c7a", ATTR{idProduct}=="0588", ATTR{power/control}="auto"
+
+save and reboot thats it! welcome to your New steam powered rog ally! 
 
 
-'''        Press cntl + O push enter to write the line in then Cntl + x so save and exit
 
-
-'''        Reboot
-
-To enable Sleep with the power button
-
-open Dolphin and navigate here
-
-sudo nano /etc/systemd/logind.conf.d/00-handheld-power.conf
-
-edit the file 
-
-
-[Login]
-HandlePowerKey=ignore
-HandlePowerKeyLongPress=ignore
-
-and change it to 
-
-
-[Login]
-HandlePowerKey=suspend
-HandlePowerKeyLongPress=ignore
-
-press ctrl o
-Enter to make the changes
-press ctrl x to exit 
 
 
 
