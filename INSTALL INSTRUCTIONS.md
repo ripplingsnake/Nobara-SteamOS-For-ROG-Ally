@@ -39,7 +39,7 @@ After install do any updates.
 Next open Konsole and copy and paste the following
 '''       
 
-<(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/nobara_ally_helper/master/install.sh)
+curl -sSL https://raw.githubusercontent.com/TaitTechMedia/nobara_ally_helper/master/install.sh
 
 
 This will install all the latest updates for the ROG Ally.
@@ -54,6 +54,25 @@ Open konsole and type
 '''      sudo systemctl enable steam-powerbuttond.service   '''
 
 Reboot.
+
+Copy and paste these commands into konsole
+
+
+
+
+
+#KDE Virtual Keyboard Fix
+
+
+mkdir -p ~/.config/plasma_mobile-workspace/env/ && echo -e '#!/bin/bash\nunset GTK_IM_MODULE\nunset QT_IM_MODULE' > ~/.config/plasma_mobile-workspace/env/immodule_temp_fix.sh && sh ~/.config/plasma_mobile-workspace/env/immodule_temp_fix.sh
+
+#Fingerprint sensor power drain issue fix
+
+
+
+sudo bash -c 'echo "ACTION==\"add\", SUBSYSTEM==\"usb\", TEST==\"power/control\", ATTR{idVendor}==\"1c7a\", ATTR{idProduct}==\"0588\", ATTR{power/control}=\"auto\"" > /etc/udev/rules.d/50-fingerprint.rules'
+
+so automatically create those two files and for the bash script it will run in.
 
 
 
