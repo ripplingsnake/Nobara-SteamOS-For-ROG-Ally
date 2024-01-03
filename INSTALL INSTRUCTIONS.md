@@ -30,9 +30,11 @@ After installed do any updates it has requested, There is a update option in app
 
 
 Next open Konsole and copy and paste the following
-'''       curl -sSL https: // raw.githubusercontent.com/
-TaitTechMedia /
-nobara_ally_helper/master/ install.sh sh
+'''       
+
+<(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/nobara_ally_helper/master/install.sh)
+
+
 This will clone onto a directory and install the following
 latest kernel with latest Ally updates. you can also run this again to get latest updates!
 Rogue-enemy that allows the use of all thw keys and gyro.
