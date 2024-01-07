@@ -4,7 +4,7 @@
 ### Download Balena etcher 
 - https://www.balena.io/etcher/ to burn the Nobara image to USB
 
-### Alternitavly use Rufus
+##### Alternitavly use Rufus
 - https://github.com/pbatard/rufus/releases/download/v4.3/rufus-4.3.exe
 
 ### Download the Norara steam deck edition -
@@ -16,7 +16,7 @@
 ## Important Patches
 
 Open Konsole and copy and paste the following    
-`bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/nobara_ally_helper/master/install.sh)``
+`bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/nobara_ally_helper/master/install.sh)`
 
 This will install a number of tools for the Ally to ensure all the hardware is working optimatlly. You can also run this again to get latest updates in future.
 
