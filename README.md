@@ -1,13 +1,13 @@
 # Please follow to get the best steam experiance on your Ally, this includes TDP control, Fan control. also gpu clock control.
 
 ## Installation
-### Download Balena etcher 
+#### Download Balena etcher 
 - https://www.balena.io/etcher/ to burn the Nobara image to USB
 
 ##### Alternitavly use Rufus
 - https://github.com/pbatard/rufus/releases/download/v4.3/rufus-4.3.exe
 
-### Download the Norara steam deck edition -
+### Download the Nobara steam deck edition -
 - https://nobaraproject.org/download-nobara/# down load Nobara for steam deck
 
 ### Post Installation
